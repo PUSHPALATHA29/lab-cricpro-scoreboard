@@ -1,16 +1,140 @@
-/* Type your code here */
-
-
-/* change the font family and spacing as per your project font */
 .footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+		margin-left: 50px;
+		font-size: 18px;
+		font-family: Nunito Sans;
+		font-style: normal;
+		margin-top: -35%;
+		display:flex;
+		flex-direction: row;
+		align-content: flex-end;
+		position: relative;
+		top: 750px;
+		
+	}
+	
+	#logo{
+		
+		margin-top: 50px;
+		margin-right: 50px;
+		height: 60px;
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	#Score{
+		background-color: rgb(245, 57, 43);
+	}
+	#india{
+		display: flex;
+		justify-content: flex-end;
+	}
+	#bat{
+		display: flex;
+	}
+	a{
+		cursor: pointer;
+		text-decoration: none;
+	}
+	
+	#bck{
+		position: absolute;
+		z-index: -1;
+		margin-left: 1000px;
+		 margin-top: 200px;
+		 width: 900px;
+		 height: 700px;
+	}
+	#ICC{
+	
+		margin-left: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-shadow: 5px 5px 5px rgb(124, 122, 122);
+		font-size: 700px;
+		font: 5em sans-serif;
+	}
+	
+	#India {
+		margin-left: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font: 2em sans-serif;
+		color: gray;
+	}
+	td,th {
+		font-size: 25px;
+		padding: 10px;
+	}
+	#spl{
+		text-align: left;
+	}
+	#table{
+		background-color: white;
+		margin-left: 50px;
+		border: 2px;
+		border-style: solid;
+		
+	}
+	.overlay {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.7);
+		transition: opacity 500ms;
+		visibility: hidden;
+		opacity: 0;
+	  }
+	  .overlay:target {
+		visibility: visible;
+		opacity: 1;
+	  }
+	  
+	  .popup {
+		margin: 70px auto;
+		padding: 20px;
+		background: #fff;
+		border-radius: 5px;
+		width: 30%;
+		position: relative;
+		transition: all 5s ease-in-out;
+	  }
+	  
+	  .popup h2 {
+		margin-top: 0;
+		color: #333;
+		font-family: Tahoma, Arial, sans-serif;
+	  }
+	  .popup .close {
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		transition: all 200ms;
+		font-size: 30px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #333;
+	  }
+	  .popup .close:hover {
+		color: #06D85F;
+	  }
+	  .popup .content {
+		max-height: 30%;
+		overflow: auto;
+	  }
+	  
+	  @media screen and (max-width: 700px){
+		.box{
+		  width: 70%;
+		}
+		.popup{
+		  width: 70%;
+		}
+	  }
+
+
+#one{
+	position: absolute;
+	margin-top: -15%;
 }
